@@ -1,5 +1,10 @@
 # CodePipeline
 
+## Steps
+
+1. Cloud Formations creates an instance
+
+2. Put version 1 of your application in an S3 bucket.
 
 ```
 aws cloudformation create-stack --stack-name CodeDeployDemoStack \
