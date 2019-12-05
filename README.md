@@ -6,6 +6,19 @@
 
 2. Put version 1 of your application in an S3 bucket.
 
+## Considerations
+
+- CloudFormation sources templates from S3
+
+```
+aws iam get-user
+```
+
+```
+aws configure list
+```
+
+
 ```
 aws cloudformation create-stack --stack-name CodeDeployDemoStack \
 --template-url https://<MY_BUCKET_NAME>.s3-us-west-2.amazonaws.com/cloud_formation_template.json \
