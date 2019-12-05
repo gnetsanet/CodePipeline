@@ -14,8 +14,17 @@
 aws iam get-user
 ```
 
+
+To see how you setup AWS CLI
 ```
-aws configure list
+aws configure list 
+
+  Name                    Value             Type    Location
+      ----                    -----             ----    --------
+   profile                  default           manual    --profile
+access_key     ****************NGFI shared-credentials-file
+secret_key     ****************HcdM shared-credentials-file
+    region                us-east-1              env    AWS_DEFAULT_REGION
 ```
 
 
